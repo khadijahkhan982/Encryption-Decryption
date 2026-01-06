@@ -1,0 +1,18 @@
+###
+
+GET http://localhost:5050/messages
+
+
+###
+
+POST http://localhost:5050/messages
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InNhZGlhYXNpZiIsInN1YiI6InNhZGlhYXNpZiIsImp0aSI6ImYxODBjOGRlIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NDA3MTgiLCJodHRwczovL2xvY2FsaG9zdDo0NDM1NiIsImh0dHA6Ly9sb2NhbGhvc3Q6NTA1MCIsImh0dHBzOi8vbG9jYWxob3N0OjcwNzkiXSwibmJmIjoxNzY3Njk1NzE4LCJleHAiOjE3NzU0NzE3MTgsImlhdCI6MTc2NzY5NTcxOSwiaXNzIjoiZG90bmV0LXVzZXItand0cyJ9.gYqQ-iz61xXY-Rlcq3aLmEyL1e5cfHKvheM9oOPinZY
+
+
+{
+    "Text": "secret message no one should see"
+}
+
+###
+GET http://localhost:5050/messages/1

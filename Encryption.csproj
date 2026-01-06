@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>01f81c8f-e42b-4055-a821-4c98a80f43fb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetEnv" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.*" />
+  </ItemGroup>
+
+</Project>
